@@ -1,4 +1,25 @@
-.fakeimg {
-    height: 200px;
-    background: #eee;
+.carousel{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  align-items: center;
+}
+ .carousel-inner{
+   max-width: 800px;
+ }
+ .slicknavmenu{
+  display: none;
+ }
+
+@media (max-width: 800px) {
+  .carousel-item img{
+    max-width: 100%;
   }
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.header img{
+  padding-right: 2em;
+}
